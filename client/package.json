@@ -1,0 +1,60 @@
+{
+  "name": "@jjunyjjuny/react-carousel",
+  "description": "carousel wrapper component for react",
+  "version": "1.1.2",
+  "module": "dist/Carousel.js",
+  "main": "dist/Carousel.js",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-scripts": "4.0.3",
+    "sass": "^1.55.0",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.10.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "babeling": "rm -rf dist && mkdir dist && babel src/lib -d dist --copy-files"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjunyjjuny/react-carousel"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "react",
+    "carousel",
+    "slider"
+  ]
+}
